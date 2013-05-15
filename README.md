@@ -4,9 +4,12 @@ Simple Meteor cron service
 
 Use:
 
-    world= ->
-      console.log 'World!'
+    world= function (){
+      console.log('World!');
+    }
 
-    @crone = new Meteor.Cron
-      events:
-        "* * * * *": world
+    @crone = new Meteor.Cron{
+      events:{
+        "* * * * *": "world"
+      }
+    }
