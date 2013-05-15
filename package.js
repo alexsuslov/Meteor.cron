@@ -1,7 +1,7 @@
 Package.describe({
-  summary: "An extremely simple cron job"
+  summary: "Simple meteor.cron"
 });
 
 Package.on_use(function (api, where) {
-  api.add_files('cron.js', ['client', 'server']);
+  api.add_files('meteor.cron.js', 'server');
 });
