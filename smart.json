@@ -1,5 +1,5 @@
 {
-  "name": "Meteor.cron",
+  "name": "cron",
   "description": "Simple cron",
   "homepage": "https://github.com/alexsuslov/Meteor.cron",
   "author": "Alex Suslov <suslov.alex@gmail.com>",
