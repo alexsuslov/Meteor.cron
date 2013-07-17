@@ -4,18 +4,20 @@ Simple Meteor cron service
 
 Use:
 ```
-    var world= function (){
+    var world = function () {
       console.log('World!');
     }
-    var myBirthDay= function (){
-      console.log('my Birth Day!');
+    
+    var myBirthDay = function () {
+      console.log('My Birth Day!');
     }
-    var crone = new Meteor.Cron{
+    
+    var cron = new Meteor.Cron( {
       events:{
-        "* * * * *": "world",
-        "0 0 18 6 *":"myBirthDay"
+        "* * * * *"  : world,
+        "0 0 18 6 *" : myBirthDay
       }
-    }
+    });
 ```
 
 The time and date fields are:
