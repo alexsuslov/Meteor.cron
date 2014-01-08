@@ -2,6 +2,17 @@ Meteor.cron
 ===========
 Simple Meteor cron service
 
+Attention!
+
+Valid crontab syntax:
+
+- */15 Every 15 minutes
+- 4-16 between 4 AM and 4 PM
+- 6,7 on saturdays and sundays
+
+Do not work with this implementation
+
+
 Use:
 ```
     var world = function () {
