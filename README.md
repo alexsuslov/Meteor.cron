@@ -4,7 +4,7 @@ Simple Meteor cron service
 
 Attention!
 
-Valid crontab syntax:
+For example */15 4-16 * * 6,7 valid crontab syntax:
 
 - */15 Every 15 minutes
 - 4-16 between 4 AM and 4 PM
