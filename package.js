@@ -1,6 +1,6 @@
 Package.describe({
-  summary: "Simple meteor.cron"
-  name: 'laboratory:cron'
+  summary: "Simple meteor.cron",
+  name: 'laboratory:cron',
   version: '0.0.2',
   git: 'https://github.com/Laboratory/Meteor.cron.git'
 });
