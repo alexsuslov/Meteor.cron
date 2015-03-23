@@ -1,6 +1,6 @@
 class Meteor.Cron
   delay:1000*60
-  events:[]
+  @events:[]
 
   constructor:(options)->
     @delay = options.delay if options?.delay
@@ -45,4 +45,3 @@ class Meteor.Cron
     @now = new Date()
     for event in @events
       @doEvent event
-
